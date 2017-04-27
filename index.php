@@ -1,3 +1,13 @@
+<?php
+
+$titulos = ['Vossa Exelencia','Magnifico','Mr.','Supremo','O supremo magnifico senhor de todos aqueles que o temem'];
+$qualidades = ['o mais bonito','gentil','todo poderoso'];
+$nome = 'heitor';
+
+
+?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,7 +18,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>ola heitor henrique</h2>
+    <h2>ola <?php echo $titulos[rand(0,4)]." $nome, ".$qualidades[rand(0,2)];?></h2>
 </body>
 </html>
 
